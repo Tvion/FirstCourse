@@ -27,7 +27,14 @@ public class Hello {
 
 //    double doubl=335.345;
 //    System.out.printf("%08.1f %08.1e",doubl,doubl);
-
+        Employee first=new Employee(10000000);
+        Employee first1=new Employee(10000000);
+        Employee second=new Employee(200000);
+        Employee third=new Employee(2100000);
+        first.getEmployee();
+        first1.getEmployee();
+        second.getEmployee();
+        third.getEmployee();
         Scanner scanner = new Scanner(Paths.get("asd.txt"),"UTF-8");
         StringBuilder stringBuilder = new StringBuilder();
         while(scanner.hasNext()){
@@ -38,7 +45,9 @@ public class Hello {
         PrintWriter printWriter=new PrintWriter("asdx.txt","UTF-8");
         printWriter.print(stringBuilder.toString());
         printWriter.close();
+
     }
+
 
 }
 
