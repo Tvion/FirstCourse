@@ -5,7 +5,7 @@ public class Employee {
     private int id;
     private String name;
     private int salary;
-
+// start id
     static {
         nextId = 0;
     }
