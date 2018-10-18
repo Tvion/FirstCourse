@@ -27,6 +27,7 @@ public class Hello {
 
 //    double doubl=335.345;
 //    System.out.printf("%08.1f %08.1e",doubl,doubl);
+
         Scanner scanner = new Scanner(Paths.get("asd.txt"),"UTF-8");
         StringBuilder stringBuilder = new StringBuilder();
         while(scanner.hasNext()){
