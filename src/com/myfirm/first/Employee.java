@@ -24,7 +24,9 @@ public class Employee {
         this("Employee #" + nextId, salary);
     }
 
-
+public static void lol(){
+    System.out.println("lol");
+}
     public void getEmployee() {
         System.out.println("Id= " + this.id + " Name=" + this.name + " salary= " + this.salary);
     }

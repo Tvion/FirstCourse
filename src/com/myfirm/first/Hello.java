@@ -8,13 +8,11 @@
 package com.myfirm.first;
 
 
-import javafx.css.Size;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class Hello {
     public static void main(String[] args) throws IOException {
